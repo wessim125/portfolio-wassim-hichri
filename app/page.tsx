@@ -137,60 +137,59 @@ export default function DashboardHome() {
 
         {/* ================= 2. BENTO BUNDLE: ABOUT & EDUCATION ================= */}
         <section className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-        <div className="lg:col-span-2 bg-white/70 backdrop-blur-md border border-slate-200/60 rounded-3xl p-8 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow duration-300">
-          <div className="space-y-5">
-          <div className="text-xs font-bold uppercase tracking-widest text-indigo-600">
-           About Me
-          </div>
+  <div className="lg:col-span-2 bg-white/70 backdrop-blur-md border border-slate-200/60 rounded-3xl p-8 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow duration-300">
+    <div className="space-y-5">
+      <div className="text-xs font-bold uppercase tracking-widest text-indigo-600">
+        About Me
+      </div>
 
-          <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
-           AI Engineer, Generative &amp; Agentic AI
-         </h2>
+      <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
+        AI Engineer, Generative &amp; Agentic AI
+      </h2>
 
-         <div className="space-y-4 text-slate-600 text-sm sm:text-base leading-relaxed pt-2">
-          <p>
-          I build{" "}
-          <strong className="text-slate-900 font-semibold">
-            production-ready AI systems
-          </strong>
-          , not just AI models.
-          </p>
-  
+      <div className="space-y-4 text-slate-600 text-sm sm:text-base leading-relaxed pt-2">
         <p>
-          As an <strong className="text-slate-900 font-semibold">AI Engineer</strong>,
-          I specialize in{" "}
+          I am an <strong className="text-slate-900 font-semibold">AI Engineer</strong>{" "}
+          passionate about designing intelligent systems that can{" "}
+          <strong className="text-slate-900 font-semibold">
+            reason, learn, perceive, and act autonomously
+          </strong>
+          .
+        </p>
+
+        <p>
+          My work focuses on{" "}
           <strong className="text-slate-900 font-semibold">
             Generative AI, Large Language Models (LLMs), Agentic AI, Multi-Agent
-            Systems, and Retrieval-Augmented Generation (RAG)
-          </strong>{" "}
-          to develop intelligent applications that reason, plan, and automate
-          complex workflows.
+            Systems, Retrieval-Augmented Generation (RAG), Natural Language
+            Processing, and Computer Vision
+          </strong>
+          , with the goal of building AI solutions that address complex
+          real-world challenges.
         </p>
 
         <p>
           Backed by a strong foundation in{" "}
           <strong className="text-slate-900 font-semibold">
-            Applied Mathematics
+            Applied Mathematics, Machine Learning, and Artificial Intelligence
           </strong>
-          , I combine AI with{" "}
+          , I enjoy turning innovative ideas into intelligent applications
+          that are{" "}
           <strong className="text-slate-900 font-semibold">
-            NLP, Computer Vision, and cloud-native engineering
+            reliable, scalable, and impactful
           </strong>
-          , leveraging{" "}
-          <strong className="text-slate-900 font-semibold">
-            Docker, Kubernetes, Terraform, and CI/CD
-          </strong>{" "}
-          to deliver scalable AI solutions from development to production.
+          .
         </p>
 
         <p>
-          I'm passionate about building intelligent software where AI goes
-          beyond assistance to become an autonomous collaborator that creates
-          real business value.
+          I am driven by the vision of creating the next generation of AI
+          systems that empower people, augment decision-making, and deliver
+          meaningful business value.
         </p>
       </div>
     </div>
   </div>
+
 
 
           <div className="grid grid-cols-1 gap-6 lg:grid-cols-[1.1fr_1.7fr]">
@@ -397,9 +396,8 @@ export default function DashboardHome() {
             <div className="bg-white border border-slate-200/60 rounded-3xl overflow-hidden shadow-sm">
               <img src="/images/wassim1.jpg" alt="Atelier IA" className="w-full h-44 object-cover" />
               <div className="p-6">
-                <p className="text-xs uppercase tracking-[0.18em] text-slate-400">2026</p>
                 <h3 className="mt-3 text-lg font-semibold text-slate-900">Atelier IA</h3>
-                <p className="mt-2 text-sm text-slate-600">Organisation d’un atelier technique sur l’IA et le Machine Learning.</p>
+                <p className="mt-2 text-sm text-slate-600">Animation d’un atelier pratique sur l’IA et le Machine Learning pour partager des usages concrets et stimuler les idées.</p>
               </div>
             </div>
             <div className="bg-white border border-slate-200/60 rounded-3xl overflow-hidden shadow-sm">
@@ -409,17 +407,15 @@ export default function DashboardHome() {
                 <img src="/images/hack3.png" alt="Hackathon 3" className="w-full h-24 object-cover" />
               </div>
               <div className="p-6">
-                <p className="text-xs uppercase tracking-[0.18em] text-slate-400">2025</p>
                 <h3 className="mt-3 text-lg font-semibold text-slate-900">Hackathon</h3>
-                <p className="mt-2 text-sm text-slate-600">Participation à un hackathon inter-écoles pour résoudre un défi technique.</p>
+                <p className="mt-2 text-sm text-slate-600">Participation active à un hackathon inter-écoles, résolution d’un challenge technique et travail d’équipe sous pression.</p>
               </div>
             </div>
             <div className="bg-white border border-slate-200/60 rounded-3xl overflow-hidden shadow-sm">
               <img src="/images/masmoudi.png" alt="Masmoudi" className="w-full h-44 object-cover" />
               <div className="p-6">
-                <p className="text-xs uppercase tracking-[0.18em] text-slate-400">2024</p>
                 <h3 className="mt-3 text-lg font-semibold text-slate-900">Conférence</h3>
-                <p className="mt-2 text-sm text-slate-600">Organisation d’une conférence sur l’innovation et l’esprit d’entreprendre.</p>
+                <p className="mt-2 text-sm text-slate-600">Organisation et intervention lors d’une conférence dédiée à l’innovation, l’entrepreneuriat et les usages responsables de l’IA.</p>
               </div>
             </div>
           </div>
