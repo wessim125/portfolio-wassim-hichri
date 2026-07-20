@@ -136,61 +136,61 @@ export default function DashboardHome() {
         </section>
 
         {/* ================= 2. BENTO BUNDLE: ABOUT & EDUCATION ================= */}
-<section className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-  <div className="lg:col-span-2 bg-white/70 backdrop-blur-md border border-slate-200/60 rounded-3xl p-8 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow duration-300">
-    <div className="space-y-5">
-      <div className="text-xs font-bold uppercase tracking-widest text-indigo-600">
-        About Me
-      </div>
+        <section className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <div className="lg:col-span-2 bg-white/70 backdrop-blur-md border border-slate-200/60 rounded-3xl p-8 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow duration-300">
+          <div className="space-y-5">
+          <div className="text-xs font-bold uppercase tracking-widest text-indigo-600">
+           About Me
+          </div>
 
-      <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
-        AI Engineer, Generative &amp; Agentic AI
-      </h2>
+          <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
+           AI Engineer, Generative &amp; Agentic AI
+         </h2>
 
-      <div className="space-y-4 text-slate-600 text-sm sm:text-base leading-relaxed pt-2">
-        <p>
-          I am an{" "}
+         <div className="space-y-4 text-slate-600 text-sm sm:text-base leading-relaxed pt-2">
+          <p>
+          I build{" "}
           <strong className="text-slate-900 font-semibold">
-            AI Engineer
-          </strong>{" "}
-          passionate about designing intelligent systems that can reason,
-          learn, perceive, and act autonomously.
-        </p>
-
-        <p>
-          My work focuses on{" "}
-          <strong className="text-slate-900 font-semibold">
-            Generative AI, Large Language Models (LLMs), Agentic AI,
-            Multi-Agent Systems, Retrieval-Augmented Generation (RAG),
-            Natural Language Processing, and Computer Vision
+            production-ready AI systems
           </strong>
-          , with the goal of building AI solutions that address complex
-          real-world challenges.
+          , not just AI models.
+          </p>
+  
+        <p>
+          As an <strong className="text-slate-900 font-semibold">AI Engineer</strong>,
+          I specialize in{" "}
+          <strong className="text-slate-900 font-semibold">
+            Generative AI, Large Language Models (LLMs), Agentic AI, Multi-Agent
+            Systems, and Retrieval-Augmented Generation (RAG)
+          </strong>{" "}
+          to develop intelligent applications that reason, plan, and automate
+          complex workflows.
         </p>
 
         <p>
           Backed by a strong foundation in{" "}
           <strong className="text-slate-900 font-semibold">
-            Applied Mathematics, Machine Learning, and Artificial Intelligence
+            Applied Mathematics
           </strong>
-          , I enjoy turning innovative ideas into intelligent applications
-          that are reliable, scalable, and impactful.
+          , I combine AI with{" "}
+          <strong className="text-slate-900 font-semibold">
+            NLP, Computer Vision, and cloud-native engineering
+          </strong>
+          , leveraging{" "}
+          <strong className="text-slate-900 font-semibold">
+            Docker, Kubernetes, Terraform, and CI/CD
+          </strong>{" "}
+          to deliver scalable AI solutions from development to production.
         </p>
 
         <p>
-          I am driven by the vision of creating the next generation of AI
-          systems that empower people, augment decision-making, and deliver
-          meaningful business value.
+          I'm passionate about building intelligent software where AI goes
+          beyond assistance to become an autonomous collaborator that creates
+          real business value.
         </p>
       </div>
     </div>
   </div>
-
-  {/* Education Card */}
-  <div className="bg-white/70 backdrop-blur-md border border-slate-200/60 rounded-3xl p-8 shadow-sm hover:shadow-md transition-shadow duration-300">
-    {/* Garde ici ton contenu Education existant */}
-  </div>
-
 
 
           <div className="grid grid-cols-1 gap-6 lg:grid-cols-[1.1fr_1.7fr]">
