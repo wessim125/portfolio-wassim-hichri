@@ -17,9 +17,17 @@ export default function ExperiencePage() {
             </div>
 
             <div className="space-y-2 bg-surface border border-border rounded-xl p-6 shadow-sm">
-              <div>
-                <h2 className="text-xl font-bold text-text-primary">{exp.role}</h2>
-                <p className="text-sm font-semibold text-blue-600">{exp.company} <span className="text-text-muted font-normal">| {exp.location}</span></p>
+              <div className="flex items-center gap-4">
+                {exp.logo ? (
+                  <img src={exp.logo} alt={`${exp.company} logo`} className="h-9 w-9 rounded-full bg-white border border-slate-200 object-contain p-1" />
+                ) : null}
+                <div>
+                  <h2 className="text-xl font-bold text-text-primary">{exp.role}</h2>
+                  <p className="text-sm font-semibold text-blue-600 flex items-center gap-2">
+                    {exp.company}
+                    <span className="text-text-muted font-normal">| {exp.location}</span>
+                  </p>
+                </div>
               </div>
               <ul className="space-y-2 pt-2">
                 {exp.steps.map((step) => (

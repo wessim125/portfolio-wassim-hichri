@@ -137,46 +137,106 @@ export default function DashboardHome() {
 
         {/* ================= 2. BENTO BUNDLE: ABOUT & EDUCATION ================= */}
         <section className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-          <div className="lg:col-span-2 bg-white/70 backdrop-blur-md border border-slate-200/60 rounded-3xl p-8 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow duration-300">
-            <div className="space-y-5">
-              <div className="text-xs font-bold uppercase tracking-widest text-indigo-600">About Me</div>
-              <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
-                AI Engineer, Generative &amp; Agentic AI
-              </h2>
-              <div className="space-y-4 text-slate-600 text-sm sm:text-base leading-relaxed pt-2">
-                <p>
-                  I'm an AI Engineer passionate about building intelligent systems that combine{" "}
-                  <strong className="text-slate-900 font-semibold">Large Language Models, Agentic AI, and multi-agent
-                  architectures</strong> to automate complex workflows and solve real-world problems. My work spans
-                  LLMs, RAG pipelines, Computer Vision, and NLP, grounded in a strong Applied Mathematics foundation.
-                  As a secondary strength, I bring a DevOps and cloud-native background (Docker, Kubernetes, Terraform,
-                  CI/CD) that lets me take what I build all the way to production rather than stopping at a notebook.
-                </p>
-              </div>
-            </div>
+        <div className="lg:col-span-2 bg-white/70 backdrop-blur-md border border-slate-200/60 rounded-3xl p-8 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow duration-300">
+          <div className="space-y-5">
+          <div className="text-xs font-bold uppercase tracking-widest text-indigo-600">
+           About Me
           </div>
 
-          <div className="bg-gradient-to-b from-slate-900 to-slate-950 text-white rounded-3xl p-8 shadow-xl flex flex-col justify-between relative overflow-hidden group">
-            <div className="absolute top-[-20%] right-[-20%] w-48 h-48 bg-blue-500/10 rounded-full blur-2xl group-hover:bg-blue-500/20 transition-colors" />
+          <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
+           AI Engineer, Generative &amp; Agentic AI
+         </h2>
+
+         <div className="space-y-4 text-slate-600 text-sm sm:text-base leading-relaxed pt-2">
+          <p>
+          I build{" "}
+          <strong className="text-slate-900 font-semibold">
+            production-ready AI systems
+          </strong>
+          , not just AI models.
+          </p>
+  
+        <p>
+          As an <strong className="text-slate-900 font-semibold">AI Engineer</strong>,
+          I specialize in{" "}
+          <strong className="text-slate-900 font-semibold">
+            Generative AI, Large Language Models (LLMs), Agentic AI, Multi-Agent
+            Systems, and Retrieval-Augmented Generation (RAG)
+          </strong>{" "}
+          to develop intelligent applications that reason, plan, and automate
+          complex workflows.
+        </p>
+
+        <p>
+          Backed by a strong foundation in{" "}
+          <strong className="text-slate-900 font-semibold">
+            Applied Mathematics
+          </strong>
+          , I combine AI with{" "}
+          <strong className="text-slate-900 font-semibold">
+            NLP, Computer Vision, and cloud-native engineering
+          </strong>
+          , leveraging{" "}
+          <strong className="text-slate-900 font-semibold">
+            Docker, Kubernetes, Terraform, and CI/CD
+          </strong>{" "}
+          to deliver scalable AI solutions from development to production.
+        </p>
+
+        <p>
+          I'm passionate about building intelligent software where AI goes
+          beyond assistance to become an autonomous collaborator that creates
+          real business value.
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+          <div className="grid grid-cols-1 gap-6 lg:grid-cols-[1.1fr_1.7fr]">
             <div className="space-y-6">
-              <div className="text-xs font-bold uppercase tracking-widest text-blue-400">Education</div>
-              <div className="space-y-5">
-                <div className="relative pl-4 border-l-2 border-blue-500/40">
-                  <h3 className="font-bold text-base tracking-tight text-white">ENSIT Tunis</h3>
-                  <p className="text-xs text-slate-400 font-medium">Engineering Degree — Applied Mathematics & Modeling</p>
-                  <p className="text-xs text-slate-400 font-medium">Master Research Program in Data Science (M2)</p>
-                  <span className="inline-block text-[10px] bg-white/10 text-blue-300 font-bold px-2 py-0.5 rounded mt-1">2023 - 2026</span>
-                </div>
-                <div className="relative pl-4 border-l-2 border-slate-700">
-                  <h3 className="font-bold text-base tracking-tight text-slate-200">IPEIN Nabeul</h3>
-                  <p className="text-xs text-slate-400">Classe Préparatoire (Physics & Chemistry)</p>
-                  <span className="inline-block text-[10px] bg-white/10 text-slate-400 font-bold px-2 py-0.5 rounded mt-1">2021 - 2023</span>
+              <div className="bg-gradient-to-b from-slate-900 to-slate-950 text-white rounded-3xl p-8 shadow-xl flex flex-col justify-between relative overflow-hidden group">
+                <div className="absolute top-[-20%] right-[-20%] w-48 h-48 bg-blue-500/10 rounded-full blur-2xl group-hover:bg-blue-500/20 transition-colors" />
+                <div className="space-y-6 relative z-10">
+                  <div className="text-xs font-bold uppercase tracking-widest text-blue-400">Education</div>
+                  <div className="space-y-5">
+                    <div className="relative pl-4 border-l-2 border-blue-500/40">
+                      <h3 className="font-bold text-base tracking-tight text-white">ENSIT Tunis</h3>
+                      <p className="text-xs text-slate-400 font-medium">Engineering Degree — Applied Mathematics & Modeling</p>
+                      <p className="text-xs text-slate-400 font-medium">Master Research Program in Data Science (M2)</p>
+                      <span className="inline-block text-[10px] bg-white/10 text-blue-300 font-bold px-2 py-0.5 rounded mt-1">2023 - 2026</span>
+                    </div>
+                    <div className="relative pl-4 border-l-2 border-slate-700">
+                      <h3 className="font-bold text-base tracking-tight text-slate-200">IPEIN Nabeul</h3>
+                      <p className="text-xs text-slate-400">Classe Préparatoire (Physics & Chemistry)</p>
+                      <span className="inline-block text-[10px] bg-white/10 text-slate-400 font-bold px-2 py-0.5 rounded mt-1">2021 - 2023</span>
+                    </div>
+                  </div>
                 </div>
               </div>
+
+              <div className="bg-white/90 border border-slate-200 rounded-3xl p-8 shadow-sm hover:shadow-md transition-shadow duration-300">
+                <div className="text-xs font-bold uppercase tracking-widest text-slate-500">Langues</div>
+                <h3 className="mt-4 text-xl font-bold text-slate-900">Compétences linguistiques</h3>
+                <ul className="mt-4 space-y-3 text-slate-600 text-sm">
+                  <li className="flex items-center gap-2">
+                    <span className="h-2.5 w-2.5 rounded-full bg-blue-600" />
+                    <strong className="text-slate-900">Français</strong> — Courant
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <span className="h-2.5 w-2.5 rounded-full bg-blue-600" />
+                    <strong className="text-slate-900">Anglais</strong> — B2
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <span className="h-2.5 w-2.5 rounded-full bg-blue-600" />
+                    <strong className="text-slate-900">Russe</strong> — A1
+                  </li>
+                </ul>
+              </div>
             </div>
+
           </div>
         </section>
-
         {/* ================= 3. FEATURED PROJECTS ================= */}
         <section id="projects" className="space-y-8">
           <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 border-b border-slate-200/60 pb-4">
@@ -327,7 +387,45 @@ export default function DashboardHome() {
           </div>
         </section>
 
-        {/* ================= 7. CONTACT ================= */}
+        {/* ================= 7. ASSOCIATIVE ENGAGEMENT ================= */}
+        <section className="space-y-8">
+          <div className="space-y-1 border-b border-slate-200/60 pb-4">
+            <div className="text-xs font-bold uppercase tracking-widest text-indigo-600">Engagement</div>
+            <h2 className="text-3xl font-extrabold text-slate-900 tracking-tight">Vie associative</h2>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="bg-white border border-slate-200/60 rounded-3xl overflow-hidden shadow-sm">
+              <img src="/images/wassim1.jpg" alt="Atelier IA" className="w-full h-44 object-cover" />
+              <div className="p-6">
+                <p className="text-xs uppercase tracking-[0.18em] text-slate-400">2026</p>
+                <h3 className="mt-3 text-lg font-semibold text-slate-900">Atelier IA</h3>
+                <p className="mt-2 text-sm text-slate-600">Organisation d’un atelier technique sur l’IA et le Machine Learning.</p>
+              </div>
+            </div>
+            <div className="bg-white border border-slate-200/60 rounded-3xl overflow-hidden shadow-sm">
+              <div className="grid grid-cols-3 gap-1">
+                <img src="/images/hack1.png" alt="Hackathon 1" className="w-full h-24 object-cover" />
+                <img src="/images/hack2.png" alt="Hackathon 2" className="w-full h-24 object-cover" />
+                <img src="/images/hack3.png" alt="Hackathon 3" className="w-full h-24 object-cover" />
+              </div>
+              <div className="p-6">
+                <p className="text-xs uppercase tracking-[0.18em] text-slate-400">2025</p>
+                <h3 className="mt-3 text-lg font-semibold text-slate-900">Hackathon</h3>
+                <p className="mt-2 text-sm text-slate-600">Participation à un hackathon inter-écoles pour résoudre un défi technique.</p>
+              </div>
+            </div>
+            <div className="bg-white border border-slate-200/60 rounded-3xl overflow-hidden shadow-sm">
+              <img src="/images/masmoudi.png" alt="Masmoudi" className="w-full h-44 object-cover" />
+              <div className="p-6">
+                <p className="text-xs uppercase tracking-[0.18em] text-slate-400">2024</p>
+                <h3 className="mt-3 text-lg font-semibold text-slate-900">Conférence</h3>
+                <p className="mt-2 text-sm text-slate-600">Organisation d’une conférence sur l’innovation et l’esprit d’entreprendre.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* ================= 8. CONTACT ================= */}
         <section id="contact" className="bg-slate-900 text-white rounded-3xl p-8 sm:p-12 max-w-2xl mx-auto space-y-8 shadow-2xl relative overflow-hidden group">
           <div className="absolute top-0 right-0 w-64 h-64 bg-blue-500/10 rounded-full blur-3xl pointer-events-none" />
 

@@ -22,6 +22,7 @@ export interface Experience {
   role: string;
   location: string;
   year: string;
+  logo?: string;
   steps: string[];
 }
 
@@ -114,7 +115,7 @@ export const projects: Project[] = [
 
   role: "AI Engineer & Machine Learning Engineer",
 
-  duration: "November 2025 – April 2026",
+  duration: "2026",
 
   domain: "Healthcare AI • Medical Imaging • Clinical Decision Support",
 
@@ -209,7 +210,7 @@ export const projects: Project[] = [
   subtitle: "GAME THEORY & REINFORCEMENT LEARNING",
 
   description:
-    "Système intelligent de contrôle des feux de circulation basé sur le Q-Learning et la Théorie des Jeux afin d'optimiser les flux de trafic, réduire le temps d'attente des véhicules et limiter les émissions de CO₂ dans des environnements urbains simulés.",
+    "Projet de fin d'études : contrôle adaptatif des feux de circulation en combinant Théorie des Jeux et Reinforcement Learning. En collaboration avec Abdelmalek Abed et sous la supervision de Sabeur Abid, nous avons développé un système capable de réduire les temps d'attente, limiter les files d'attente, diminuer les émissions de CO₂ et prioriser les véhicules d'urgence pour un trafic urbain plus durable.",
 
   technologies: [
     "Python",
@@ -217,7 +218,8 @@ export const projects: Project[] = [
     "TraCI",
     "Q-Learning",
     "Game Theory",
-    "Matplotlib"
+    "Matplotlib",
+    "Seaborn"
   ],
 
   role: "Reinforcement Learning Engineer",
@@ -227,23 +229,26 @@ export const projects: Project[] = [
   domain: "Smart Cities • Intelligent Transportation Systems",
 
   challenges: [
-    "Optimiser dynamiquement les cycles des feux de circulation dans plusieurs intersections.",
-    "Réduire la congestion tout en garantissant une distribution équitable des temps de passage.",
-    "Intégrer la Théorie des Jeux afin d'améliorer la coopération entre intersections."
+    "Concevoir un contrôle de feux intelligent capable de s'adapter en temps réel à des conditions de trafic variables.",
+    "Simuler sept scénarios de trafic réalistes dans SUMO pour évaluer la performance du système.",
+    "Garantir une répartition équitable du temps vert tout en priorisant les véhicules d'urgence.",
+    "Réduire la congestion et les émissions de CO₂ tout en améliorant la robustesse du trafic mixte."
   ],
 
   outcomes: [
-    "Réduction significative du temps d'attente moyen des véhicules dans les simulations.",
-    "Diminution des émissions de CO₂ grâce à une meilleure fluidité du trafic.",
-    "Prototype démontrant l'efficacité du Reinforcement Learning appliqué aux Smart Cities."
+    "Jusqu'à 30 % de réduction du temps d'attente moyen des véhicules.",
+    "Diminution notable des émissions de CO₂ grâce à un trafic plus fluide.",
+    "Amélioration de la réactivité pour les véhicules d'urgence.",
+    "Preuve de concept solide pour des villes plus intelligentes et durables."
   ],
 
   features: [
-    "Simulation de plusieurs scénarios de trafic avec SUMO.",
-    "Optimisation adaptative des feux via le Q-Learning.",
-    "Gestion intelligente des véhicules prioritaires.",
-    "Application de la Shapley Value pour assurer une répartition équitable.",
-    "Visualisation en temps réel des performances."
+    "Simulation de sept scénarios réalistes avec SUMO (Simulation of Urban Mobility).",
+    "Contrôle adaptatif des feux de circulation via Q-Learning en temps réel.",
+    "Décisions stratégiques basées sur la Théorie des Jeux pour coordonner véhicules et intersections.",
+    "Application de la Shapley Value pour une répartition juste du temps vert.",
+    "Approche Maximin et Wardrop pour une robustesse optimale en trafic dense et mixte.",
+    "Gestion prioritaire des véhicules d'urgence et optimisation des flux multimodaux."
   ],
 
   gallery: [
@@ -251,7 +256,11 @@ export const projects: Project[] = [
     "/images/comparison_20250503_215507.png",
     "/images/emergency_2.png",
     "/images/eval_waiting_time.png",
-    "/images/queue_lengths_20250503_223457.png"
+    "/images/queue_lengths_20250503_223457.png",
+    "/images/n1.png",
+    "/images/n2.png",
+    "/images/n3.png",
+    "/images/n4.png"
   ],
 
   demoUrl: ""
@@ -263,7 +272,7 @@ export const projects: Project[] = [
     description: "Application explorant les algorithmes quantiques QSVM (Quantum Kernel) et QVC (Quantum Variational) pour anticiper et modéliser l'attrition volontaire des employés face aux modèles classiques.",
     technologies: ["Qiskit", "Python", "QSVM", "QVC", "Quantum Computing", "Scikit-Learn"],
     role: "Chercheur en Quantum ML",
-    duration: "Janvier 2024 - Juin 2024",
+    duration: "2026",
     domain: "Quantum Computing / RH Analytics",
     challenges: [
       "Intégrer des noyaux quantiques à un flux d'entraînement classique peu bruité.",
@@ -289,7 +298,7 @@ export const projects: Project[] = [
     description: "Système d'intelligence artificielle multimodal unifiant l'analyse simultanée de la vision, de la parole et du texte pour classifier 8 émotions fondamentales via des modèles Transformers.",
     technologies: ["Transformers", "OpenCV", "PyTorch", "NLP", "Audio Processing"],
     role: "Ingénieur Multimodal",
-    duration: "Février 2024 - Août 2024",
+    duration: "2025",
     domain: "Vision & Speech AI",
     challenges: [
       "Fusionner des signaux audio, vidéo et texte avec loss functions stables.",
@@ -305,7 +314,7 @@ export const projects: Project[] = [
       "Fusion de caractéristiques multimodales complexes (visage, voix, texte).",
       "Classification en temps réel parmi 8 états émotionnels humains distinctes."
     ],
-    demoVideo: "/videos/multimodal-emotion-recognition-demo.mp4",
+    demoVideo: "/videos/demo_yolo.mp4",
     demoUrl: ""
   },
   {
@@ -315,7 +324,7 @@ export const projects: Project[] = [
     description: "Entraînement d'un agent d'apprentissage par renforcement basé sur l'algorithme PPO dans l'environnement PyBullet pour assurer une marche stable sur des terrains irréguliers.",
     technologies: ["Reinforcement Learning", "PPO", "PyBullet", "Python"],
     role: "Ingénieur RL",
-    duration: "Juin 2023 - Décembre 2023",
+    duration: "2025",
     domain: "Robotics / Simulation",
     challenges: [
       "Stabiliser un robot quadrupède sur des terrains accidentés avec un agent PPO.",
@@ -342,6 +351,7 @@ export const experiences: Experience[] = [
     role: "AI Engineer Intern (PFE)",
     location: "Tunis, Tunisie",
     year: "2026",
+    logo: "/images/talan.jpg",
     steps: [
       "Conception et développement de NexOps, une plateforme DevOps autonome basée sur l'IA Générative et les systèmes Multi-Agents.",
       "Création d'agents pour automatiser les workflows CI/CD, l'IaC, Kubernetes et la sécurité.",
@@ -353,6 +363,7 @@ export const experiences: Experience[] = [
     role: "Computer Vision Intern",
     location: "Sousse, Tunisie",
     year: "2025",
+    logo: "/images/leoni.jpg",
     steps: [
       "Développement d'un système de détection d'obstacles en temps réel basé sur YOLO avec fusion multi-caméras.",
       "Implémentation d'algorithmes de navigation autonome (Dijkstra) pour les robots mobiles d'usine (MiR)."
@@ -363,6 +374,7 @@ export const experiences: Experience[] = [
     role: "Data Analysis Intern",
     location: "Tunis, Tunisie",
     year: "2024",
+    logo: "/images/telecom.jpg",
     steps: [
       "Analyse des indicateurs clés de performance (KPI) financiers et modélisation prédictive en Python.",
       "Création de tableaux de bord visuels pour guider les prises de décisions stratégiques commerciales."
