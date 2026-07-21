@@ -88,8 +88,8 @@ export default function DashboardHome() {
                 </Link>
 
                 <a
-                  href="/cv hichri_wassim.pdf"
-                  download="cv hichri_wassim.pdf"
+                  href="/cv_hichri_wassim.pdf"
+                  download="cv_hichri_wassim.pdf"
                   className="bg-white hover:bg-slate-50 border border-slate-200/80 text-slate-800 px-6 py-3 rounded-xl font-semibold shadow-sm transition-all duration-300 text-sm text-center"
                 >
                   Download CV
